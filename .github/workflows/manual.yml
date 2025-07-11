@@ -18,4 +18,4 @@ jobs:
   
     steps:
     - name: Send greeting
-      run: maven "Hello ${{ inputs.name }}"
+      run: mvn build 
